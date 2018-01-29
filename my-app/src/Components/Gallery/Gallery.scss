@@ -1,0 +1,18 @@
+.gallery-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    &__title{
+        font-weight: bold;
+        padding: 3rem 0px 6rem;
+        color: #D35E8A;
+        margin-bottom: 2rem;
+        background: url(../../Assets/Img/gallery-background.png) center no-repeat;
+        background-size: 20%;
+        background-position-y: 3rem;
+        font-size: 1.2rem;
+        @media screen and (max-width: 1300px) {
+            font-size: 1rem;
+        }
+    }
+}

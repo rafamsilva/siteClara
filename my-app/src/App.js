@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Components/Header/Header'
 import Banner from './Components/Banner/Banner'
 import Gallery from './Components/Gallery/Gallery'
+import Confirmation from './Components/Confirmation/Confirmation'
 import './App.css';
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
         <Header />
         <Banner />
         <Gallery />
+        <Confirmation />
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload. 
         </p>
