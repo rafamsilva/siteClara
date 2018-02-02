@@ -1,20 +1,38 @@
 .confirmation-container {
+  margin-top: 20px;
   background: url(../../Assets/Img/confirmation-background.png) repeat;
-  padding: 20px;
+  background-size: 15%;
+  padding: 40px 20px;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  text-align: left; }
   .confirmation-container form {
     display: flex;
-    justify-content: space-between; }
-  .confirmation-container .confirmation-form__fields {
-    display: flex;
     justify-content: space-between;
-    flex-direction: column; }
-    .confirmation-container .confirmation-form__fields input[type=text], .confirmation-container .confirmation-form__fields input[type=email], .confirmation-container .confirmation-form__fields input[type=number] {
-      width: 20rem;
-      margin-right: 1rem;
-      margin-bottom: 1rem;
-      height: 1.5rem;
-      padding-left: 0.5rem;
+    font-style: italic;
+    color: #696969; }
+    .confirmation-container form .confirmation-form__fields {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column; }
+      .confirmation-container form .confirmation-form__fields input[type=text], .confirmation-container form .confirmation-form__fields input[type=email], .confirmation-container form .confirmation-form__fields input[type=number] {
+        width: 20rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        height: 1.5rem;
+        padding: 0 0.5rem;
+        border-radius: 5px;
+        border: none; }
+        .confirmation-container form .confirmation-form__fields input[type=text]::placeholder, .confirmation-container form .confirmation-form__fields input[type=email]::placeholder, .confirmation-container form .confirmation-form__fields input[type=number]::placeholder {
+          color: #AFAFAF;
+          font-style: italic; }
+      .confirmation-container form .confirmation-form__fields input[type=checkbox] {
+        background: white; }
+    .confirmation-container form button {
+      color: white;
       border-radius: 5px;
-      border: none; }
+      border: none;
+      font-weight: bold;
+      background: #D35E8A;
+      padding: 1.7rem 0.8rem;
+      cursor: pointer; }

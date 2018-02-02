@@ -1,0 +1,40 @@
+.message-container{
+    display: flex;
+    background: url(../../Assets/Img/message-background.png);
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-size: 15%;
+    .message-form{
+        display: flex;
+        justify-content: space-around;
+        font-style: italic;
+        color: #696969;
+        text-align: left;
+        input[type=text], textarea{
+            width: 20rem;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+            height: 1.5rem;
+            padding: 0 0.5rem;
+            border-radius: 5px;
+            border: none;
+            &::placeholder{
+                color: #AFAFAF;
+                font-style: italic;
+            }
+        }
+        textarea{
+            padding-bottom: 4.3rem;
+            resize: none;
+        }
+        button{
+            color: white;
+            border-radius: 5px;
+            border: none;
+            font-weight: bold;
+            background: #9FD692;
+            padding: 2.45rem 0.8rem;
+            cursor: pointer;
+        }
+    }
+}

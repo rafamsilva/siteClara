@@ -1,24 +1,45 @@
 .confirmation-container{
+    margin-top: 20px;
     background: url(../../Assets/Img/confirmation-background.png) repeat;
-    padding: 20px;
+    background-size: 15%;
+    padding: 40px 20px;
     display: flex;
     justify-content: space-around;
+    text-align: left;
     form{
         display: flex;
         justify-content: space-between;
-    }
-    .confirmation-form__fields{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        input[type=text], input[type=email], input[type=number]{
-            width: 20rem;
-            margin-right: 1rem;
-            margin-bottom: 1rem;
-            height: 1.5rem;
-            padding-left: 0.5rem;
+        font-style: italic;
+        color: #696969;
+        .confirmation-form__fields{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            input[type=text], input[type=email], input[type=number]{
+                width: 20rem;
+                margin-right: 1rem;
+                margin-bottom: 1rem;
+                height: 1.5rem;
+                padding: 0 0.5rem;
+                border-radius: 5px;
+                border: none;
+                &::placeholder{
+                    color: #AFAFAF;
+                    font-style: italic;
+                }
+            }
+            input[type=checkbox] {
+                background: white;
+            }
+        }
+        button{
+            color: white;
             border-radius: 5px;
             border: none;
+            font-weight: bold;
+            background: #D35E8A;
+            padding: 1.7rem 0.8rem;
+            cursor: pointer;
         }
     }
 }
