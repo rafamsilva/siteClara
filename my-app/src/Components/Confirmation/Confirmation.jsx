@@ -21,7 +21,7 @@ export default class Confirmation extends Component {
       name: this.state.name,
       email: this.state.email,
       amountAdults: this.state.amountAdults,
-      amountChildrens: this.amountChildrens,
+      amountChildrens: this.state.amountChildrens,
       goingEvent: this.state.goingEvent
     })
     this.setState({showConfirmation: false})

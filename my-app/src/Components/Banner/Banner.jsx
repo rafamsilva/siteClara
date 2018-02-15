@@ -11,17 +11,11 @@ export default class Banner extends Component {
                 showArrows={false}
                 showStatus={false}
                 showThumbs={false}
-                infiniteLoop={true}
-                autoPlay={true}
+                infiniteLoop={false}
+                autoPlay={false}
             >
                 <div>
-                    <img src={banner1} alt="Banner Clara"/>
-                </div>
-                <div>
-                    <img src={banner1} alt="Banner Clara"/>
-                </div>
-                <div>
-                    <img src={banner1} alt="Banner Clara"/>
+                    <img src="https://firebasestorage.googleapis.com/v0/b/site-clara-6f8e8.appspot.com/o/gallery%2Ffamilia%2FJDA_4689.jpg?alt=media&token=b54573af-0700-4f4b-8c52-cb69c2f0fa62" alt="Banner Clara"/>
                 </div>
             </Carousel>
         )
