@@ -48,7 +48,7 @@ export default class Confirmation extends Component {
                     <label htmlFor="noConfirmation">Não</label>
                 </div>
             </div>
-            <div>
+            <div className="confirmation-form__button">
                 <button type="submit" title="Confirmar Presença">ENVIAR</button>
             </div>
         </form>

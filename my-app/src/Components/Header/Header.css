@@ -17,3 +17,6 @@
       text-decoration: none;
       color: white;
       font-size: 1rem; }
+  @media screen and (max-width: 1300px) {
+    .header-menu {
+      display: none; } }

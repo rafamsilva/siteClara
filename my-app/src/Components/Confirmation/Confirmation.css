@@ -28,11 +28,36 @@
           font-style: italic; }
       .confirmation-container form .confirmation-form__fields input[type=checkbox] {
         background: white; }
-    .confirmation-container form button {
-      color: white;
-      border-radius: 5px;
-      border: none;
-      font-weight: bold;
-      background: #D35E8A;
-      padding: 1.7rem 0.8rem;
-      cursor: pointer; }
+      @media screen and (max-width: 1300px) {
+        .confirmation-container form .confirmation-form__fields div {
+          display: flex;
+          flex-direction: column;
+          align-items: center; } }
+      .confirmation-container form .confirmation-form__fields div:last-child {
+        flex-direction: row;
+        align-items: flex-start; }
+      @media screen and (max-width: 1300px) {
+        .confirmation-container form .confirmation-form__fields {
+          flex-direction: column;
+          align-items: center; } }
+    .confirmation-container form .confirmation-form__button {
+      display: flex; }
+      .confirmation-container form .confirmation-form__button button {
+        color: white;
+        border-radius: 5px;
+        border: none;
+        font-weight: bold;
+        background: #D35E8A;
+        padding: 1.7rem 0.8rem;
+        cursor: pointer; }
+        @media screen and (max-width: 1300px) {
+          .confirmation-container form .confirmation-form__button button {
+            padding: 2.45rem 9.8rem; } }
+    @media screen and (max-width: 1300px) {
+      .confirmation-container form {
+        flex-direction: column;
+        align-items: center; } }
+  @media screen and (max-width: 1300px) {
+    .confirmation-container {
+      flex-direction: column;
+      align-items: center; } }
